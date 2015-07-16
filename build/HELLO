@@ -1,0 +1,5 @@
+This is where gulp will place the built files,
+such as files that have been compiled with browserify.
+It is these files that should be served to the browser,
+not the files in /src.
+Do not commit files in this dir to version control.
