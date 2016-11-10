@@ -9,8 +9,7 @@ function loadImage(url) {
     }
 
     image.onerror = function() {
-      let message =
-        'Could not load image at ' + url
+      let msg = 'Could not load image at ' + url
       reject(new Error(msg))
     }
 
